@@ -15,16 +15,6 @@ h1 {
     color: #777;
 }
 
-.home-photo {
-    height: auto;
-    margin-top: 25px;
-    margin-left: 20px;    
-}
-
-.home-photo img {
-   width: 150px;
-}
-
 .home-text p {
     font-size: 16px;
     line-height: 1.5;
@@ -54,4 +44,12 @@ nav a {
 
 nav a:hover {
     color: #777;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 25px;
+    margin-left: 40px;
 }
