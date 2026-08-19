@@ -5,29 +5,29 @@ body {
     background-color: white;
 }
 
-/* Main homepage content */
 .homepage {
-    margin: 20px 0 0 20px;
-    text-align: left;
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 30px;
 }
 
-/* Your name */
 h1 {
     color: #777;
-    margin-top: 0;
+    margin: 0 0 8px 0;
+    font-size: 32px;
+    font-weight: 500;
 }
 
-/* Position and university */
 .position {
     font-size: 16px;
     line-height: 1.5;
+    margin: 0;
 }
 
-/* Navigation */
 nav {
     position: absolute;
-    top: 20px;
-    right: 40px;
+    top: 40px;
+    right: 60px;
 }
 
 nav a {
@@ -40,7 +40,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Photo and text side by side */
 .about-section {
     display: flex;
     align-items: flex-start;
@@ -48,16 +47,11 @@ nav a:hover {
     margin-top: 30px;
 }
 
-/* Profile picture */
 .profile-photo {
     width: 150px;
-    max-width: 150px;
     height: auto;
-    display: block;
-    margin-left: 20px;
 }
 
-/* Text next to picture */
 .about-text {
     max-width: 550px;
     font-size: 16px;
