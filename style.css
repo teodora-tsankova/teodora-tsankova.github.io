@@ -42,6 +42,10 @@ nav a:hover {
 
 /* Profile picture */
 .profile-photo {
-    width: 150px;
-    margin-left: 500px;    
+    width: 150px; 
+    max-width: 150px;
+    height: auto;
+    margin-left: 500px;       
+    display: block;
+}    
 }
