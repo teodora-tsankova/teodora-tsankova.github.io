@@ -1,3 +1,85 @@
+
+
+997d9ee8-f19f-4f2a-af5a-b63e8227b533.png
+so what do i do from here 
+
+0b110a9f-7404-44cf-a32c-144d57596989.png
+ now?
+
+9cb16f6b-5d1d-4cce-8fa9-d9c365e06076.png
+
+I checked the live page. 
+ The likely issue is that your HTML image still has an inline style, and your CSS has gone through several different selectors.
+
+Let's make the photo positioning unambiguous.
+
+In your index.html, change the image to exactly this:
+
+<img class="profile-photo"
+     src="Teodora_picture.jpg"
+     alt="Teodora Tsankova">
+Remove any style="..." from the image.
+
+Then, at the very bottom of style.css, add:
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+The important part is:
+
+margin-left: 40px;
+Your .homepage already starts 30px from the left, so this adds another 40px specifically to the photograph. The result should be roughly:
+
+  Teodora N. Tsankova
+  Assistant Professor...
+  Tilburg University
+
+        [ PHOTO ]
+If you want only a tiny shift, use 20px. If you want it noticeably farther right, use 50px or 60px.
+
+I suggest 40px to start. Commit both changes and refresh the page.
+
+
+what about the hom photo item
+
+You can remove the .home-photo item now. It belongs to an earlier version of the HTML where the picture was inside <div class="home-photo">.
+
+Your current HTML uses:
+
+<img class="profile-photo"
+     src="Teodora_picture.jpg"
+     alt="Teodora Tsankova">
+So the CSS should use .profile-photo instead.
+
+Delete these old sections from your CSS:
+
+.home-photo {
+    margin-bottom: 20px;
+}
+
+.home-photo img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+And replace them with:
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+So yes: home-photo can go completely. We now use profile-photo to control the picture.
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
@@ -52,4 +134,46 @@ nav a:hover {
     display: block;
     margin-top: 25px;
     margin-left: 40px;
+} is all of this needed
+
+Not all of it. You can simplify it considerably. There are also two small issues: .home-text p isn't doing anything with your current HTML, and color: #777;; has an extra semicolon.
+
+I recommend replacing the entire style.css with this cleaner version:
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    background-color: white;
+}
+
+/* Main homepage content */
+.homepage {
+    margin: 30px 0 0 30px;
+    text-align: left;
+}
+
+/* Your name */
+h1 {
+    color: #777;
+    margin-top: 0;
+}
+
+/* Position and university */
+.position {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Navigation */
+nav {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+nav a {
+    color: #777;
+    text-decoration: none;
+    margin-left: 15px;
 }
