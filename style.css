@@ -43,7 +43,6 @@ nav a:hover {
 .about-section {
     display: flex;
     align-items: flex-start;
-    gap: 80px;
     margin-top: 30px;
 }
 
@@ -53,7 +52,8 @@ nav a:hover {
 }
 
 .about-text {
-    flex: 1;
+    margin-left: 55px;
+    width: 600px;
     font-size: 16px;
     line-height: 1.6;
 }
