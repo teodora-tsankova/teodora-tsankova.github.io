@@ -43,4 +43,5 @@ nav a:hover {
 /* Profile picture */
 .profile-photo {
     width: 150px;
+    margin-left: 500px;    
 }
