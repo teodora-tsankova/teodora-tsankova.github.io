@@ -22,9 +22,11 @@ body {
 }
 
 .home-photo img {
-    width: 150px;
+   width: 150px;
     height: auto;
     display: block;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .home-text p {
