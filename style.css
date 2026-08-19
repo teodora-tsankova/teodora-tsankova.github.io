@@ -52,6 +52,7 @@ nav a:hover {
 }
 
 .about-text {
+    margin-top: 20px;    
     margin-left: 55px;
     width: 600px;
     font-size: 16px;
