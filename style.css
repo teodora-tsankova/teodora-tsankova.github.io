@@ -11,28 +11,28 @@ body {
     padding: 40px 30px 0 30px;
 }
 
+/* Main homepage layout */
 .about-section {
-    display: grid;
-    grid-template-columns: 450px 1fr;
-    column-gap: 60px;
-    align-items: start;
-    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
 }
 
+/* Left side: name, position and photo */
 .photo-column {
+    width: 520px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .intro-header {
-    text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .intro-header h1 {
     color: #777;
-    margin: 0 0 10px 0;
     font-size: 32px;
     font-weight: 500;
+    margin: 0 0 10px 0;
 }
 
 .position {
@@ -48,10 +48,13 @@ body {
     margin: 0 auto;
 }
 
+/* Right side */
 .about-text {
+    margin-left: 80px;
+    padding-top: 145px;
     font-size: 16px;
     line-height: 1.6;
-    padding-top: 100px;
+    flex: 1;
 }
 
 .about-text p {
@@ -59,6 +62,7 @@ body {
     margin-bottom: 15px;
 }
 
+/* Navigation */
 nav {
     position: absolute;
     top: 40px;
@@ -69,44 +73,9 @@ nav a {
     color: #777;
     text-decoration: none;
     margin-left: 15px;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
 nav a:hover {
     text-decoration: underline;
-}
-
-/* Research page */
-
-.research-section {
-    margin-top: 45px;
-    max-width: 850px;
-}
-
-.research-section h2 {
-    color: #777;
-    font-size: 23px;
-    font-weight: 500;
-    margin-top: 45px;
-    margin-bottom: 25px;
-}
-
-.paper {
-    margin-bottom: 28px;
-}
-
-.paper-title {
-    color: #555;
-    font-size: 17px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-a.paper-title:hover {
-    text-decoration: underline;
-}
-
-.paper p {
-    margin: 6px 0 0 0;
-    line-height: 1.55;
 }
