@@ -13,7 +13,7 @@ body {
 
 h1 {
     color: #777;
-    margin: 0 0 8px 0;
+    margin: 20px 0 8px 0;
     font-size: 32px;
     font-weight: 500;
 }
@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 .about-text {
-    margin-top: 20px;    
+    margin-top: 40px;    
     margin-left: 100px;
     width: 600px;
     font-size: 16px;
