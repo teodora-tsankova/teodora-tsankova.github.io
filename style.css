@@ -42,15 +42,15 @@ nav a:hover {
 }
 
 .about-section {
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 150px;
     margin-top: 30px;
-    padding-left: 40px;
-    gap: 400px !important;
+    padding-left: 100px;
 }
 
 .photo-column {
-    margin-left: 60px;
+    margin: 0;
 }
 
 .profile-photo {
@@ -60,21 +60,13 @@ nav a:hover {
 }
 
 .about-text {
-    flex: 1;
     font-size: 16px;
     line-height: 1.6;
-    margin-left: 20px;    
 }
 
 .about-text p {
     margin-top: 0;
     margin-bottom: 15px;
-}
-
-.profile-photo {
-    width: 225px;
-    height: auto;
-    display: block;
 }
 
 /* Research page */
