@@ -50,7 +50,7 @@ nav a:hover {
 .profile-photo {
     width: 225px;
     height: auto;
-    margin-left: 30px;    
+    transform: translateX(30px);
 }
 
 .about-text {
