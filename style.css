@@ -37,7 +37,6 @@ body {
     margin-top: 40px;
 }
 
-
 .photo-column {
     width: 500px;
     display: flex;
@@ -45,13 +44,11 @@ body {
     flex-shrink: 0;
 }
 
-
 .profile-photo {
     width: 225px;
     height: auto;
     display: block;
 }
-
 
 .about-text {
     position: absolute;
