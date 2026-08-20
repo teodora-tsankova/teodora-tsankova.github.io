@@ -53,7 +53,7 @@ body {
 .about-text {
     position: absolute;
     left: 450px;
-    top: 150px;
+    top: 100px;
     font-size: 16px;
     line-height: 1.6;
 }
