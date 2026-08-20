@@ -62,8 +62,11 @@ nav a:hover {
     width: 600px;
     font-size: 16px;
     line-height: 1.6;
-    position: relative;
-    top: -30px;
+}
+
+.about-text {
+    position: relative !important;
+    top: -100px !important;
 }
 
 .about-text p {
