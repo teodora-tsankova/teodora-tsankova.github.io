@@ -13,7 +13,7 @@ body {
 
 /* Name and position */
 .left-header {
-    width: 500px;
+    width: 600px;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .photo-column {
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: center;
     flex-shrink: 0;
