@@ -42,11 +42,11 @@ nav a:hover {
 }
 
 .about-section {
-     display: grid;
+    display: grid;
     grid-template-columns: 300px 1fr;
     column-gap: 70px;
     margin-top: 30px;
-    padding-left: 100px;   
+    padding-left: 100px;
 }
 
 .photo-column {
