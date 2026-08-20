@@ -51,10 +51,9 @@ body {
 }
 
 .about-text {
-    margin-left: -50px;
     font-size: 16px;
     line-height: 1.6;
-    flex: 1;
+    transform: translateX(-80px);    
 }
 
 .about-text p {
