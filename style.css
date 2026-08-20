@@ -46,7 +46,7 @@ nav a:hover {
     align-items: flex-start;
     margin-top: 30px;
     padding-left: 40px;
-    gap: 400px !important
+    gap: 400px !important;
 }
 
 .photo-column {
