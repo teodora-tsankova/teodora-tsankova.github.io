@@ -69,3 +69,38 @@ nav a:hover {
     margin-top: 0;
     margin-bottom: 15px;
 }
+
+/* Research page */
+
+.research-section {
+    margin-top: 45px;
+    max-width: 850px;
+}
+
+.research-section h2 {
+    color: #777;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.paper {
+    margin-bottom: 28px;
+}
+
+.paper-title {
+    color: #555;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a.paper-title:hover {
+    text-decoration: underline;
+}
+
+.paper p {
+    margin: 6px 0 0 0;
+    line-height: 1.55;
+}
