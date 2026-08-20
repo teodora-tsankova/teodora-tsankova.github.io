@@ -42,7 +42,6 @@ nav a:hover {
 }
 
 .about-section {
-    display: flex;
     align-items: flex-start;
     margin-top: 30px;
     padding-left: 40px;
