@@ -58,11 +58,12 @@ nav a:hover {
 }
 
 .about-text {
-    margin-top: -20px;
     margin-left: 200px;
     width: 600px;
     font-size: 16px;
     line-height: 1.6;
+    position: relative;
+    top: -30px;
 }
 
 .about-text p {
