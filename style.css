@@ -51,7 +51,7 @@ body {
 }
 
 .about-text {
-    margin-left: 30px;
+    margin-left: -50px;
     font-size: 16px;
     line-height: 1.6;
     flex: 1;
