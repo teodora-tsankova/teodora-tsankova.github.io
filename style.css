@@ -33,7 +33,7 @@ body {
 /* Photo and information */
 .about-section {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start;  /* photo and text start at same height */
     margin-top: 40px;
 }
 
@@ -51,9 +51,8 @@ body {
 }
 
 .about-text {
-    position: absolute;
-    left: 500px;
-    top: 150px;
+    position: static;      /* remove absolute positioning */
+    margin-top: 0;
     font-size: 16px;
     line-height: 1.6;
 }
