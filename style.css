@@ -13,8 +13,8 @@ body {
 
 /* Name and position */
 .left-header {
-    width: 100%;
-    text-align: left;
+    width: 500px;
+    text-align: center;
 }
 
 .left-header h1 {
