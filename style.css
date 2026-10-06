@@ -115,6 +115,10 @@ a.paper-title {
     line-height: 1.55;
 }
 
+.about-text a,
+.about-text a:visited {
+    color: #1f3a5f;
+}
 
 /* ==================================================
    MOBILE VERSION
