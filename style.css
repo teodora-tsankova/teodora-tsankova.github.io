@@ -106,7 +106,7 @@ nav a:hover {
     text-decoration: none;
 }
 
-a.paper-title:hover {
+a.paper-title {
     text-decoration: underline;
 }
 
