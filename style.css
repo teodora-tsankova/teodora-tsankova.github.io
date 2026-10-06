@@ -115,6 +115,11 @@ a.paper-title {
     line-height: 1.55;
 }
 
+.paper p a,
+.paper p a:visited {
+    color: #1f3a5f;
+}
+
 .about-text a,
 .about-text a:link,
 .about-text a:visited,
