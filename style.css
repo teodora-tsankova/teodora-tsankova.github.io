@@ -20,7 +20,7 @@ body {
 .left-header h1 {
     color: #777;
     font-size: 32px;
-    font-weight: 550;
+    font-weight: 600;
     margin: 0 0 10px 0;
 }
 
@@ -226,4 +226,12 @@ a.paper-title {
     .paper p {
         line-height: 1.5;
     }
+
+    .paper p a,
+    .paper p a:visited,
+    .paper p a:hover,
+    .paper p a:active {
+        color: #1f3a5f;
+    }
+    
 }
